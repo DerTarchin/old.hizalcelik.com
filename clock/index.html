@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Hizal &Ccedil;elik | Programmer, Designer, Artist</title>   
+
+<meta name="description" content="Hizal &Ccedil;elik | Programmer, Designer, Artist" />
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href=" ../_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href=" ../_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href=" ../_include/css/supersized.css" rel="stylesheet">
+<link href=" ../_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href=" ../_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href=" ../_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href=" ../_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href=" ../_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href=" ../_include/css/responsive.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="apple-touch-icon" sizes="57x57" href="../_include/favicon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../_include/favicon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../_include/favicon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../_include/favicon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../_include/favicon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../_include/favicon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../_include/favicon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../_include/favicon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../_include/favicon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../_include/favicon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../_include/favicon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../_include/favicon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../_include/favicon.ico/favicon-16x16.png">
+<link rel="manifest" href="../_include/favicon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../_include/favicon.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Modernizr -->
+<script src=" ../_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70907063-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+	<div class="overlay"></div>
+    
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#shortcodes"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+            <a id="goUp" href="#home-slider" title="Hizal &Ccedil;elik | Programmer, Designer, Artist">Hizal &Ccedil;elik</a>
+        </div>
+
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li><a href="../" class="external">Home</a></li>
+                <li><a href="../index.html#work" class="external">Projects</a></li>
+                <li><a href="../index.html#about" class="external">About Me</a></li>
+                <li><a href="../index.html#contact" class="external">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Blog Section -->
+<div id="shortcodes" class="page">
+	<div class="container">
+    
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Analog 'Digital' Clock</h2>
+                    <h3 class="title-description">Animated clocks that form a digital-looking display.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Start Info Section -->
+        <div class="row">
+
+            <!-- Start Extra Section -->
+            <div class="span6">
+                
+                <div class="tabbable">
+                
+                    <ul class="nav nav-tabs" id="myTab">
+                        <li class="active"><a href="#tab1" data-toggle="tab">Demo</a></li>
+                        <li><a href="#tab2" data-toggle="tab">Inspiration</a></li>
+                         <li><a href="#tab3" data-toggle="tab">Source Code</a></li>
+                    </ul>
+                 
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1">
+                            <p style="margin-bottom:0px"><img src="_include/img/content/clock.gif" /></p>
+                        </div>
+                        <div class="tab-pane fade in" id="tab2">
+                            <p><img src="_include/img/content/swirl.jpg" style="margin-bottom:10px" />
+                            <br>
+                            The project is based on this video I saw years ago. Coding this project turned out to be a lot more complicated than it seemed, but the final product works in a satisfactory and similar manner to the original below. </p>
+                            <div class="video-container" style="margin-top:10px">
+                                <iframe src="http://player.vimeo.com/video/29319186?byline=0&amp;portrait=0&amp;badge=0&amp;color=519894"></iframe>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade in" id="tab3">
+                            <pre><code>
+int radius = 120;
+int lineradius=radius/2-3;
+int[] cX= new int[24];
+int[] cY= new int[24];
+float[] time1c1r1= new float[10];
+float[] time2c1r1= new float[10];
+float[] time1c1r2= new float[10];
+float[] time2c1r2= new float[10];
+float[] time1c1r3= new float[10];
+float[] time2c1r3= new float[10];
+float[] time1c2r1= new float[10];
+float[] time2c2r1= new float[10];
+float[] time1c2r2= new float[10];
+float[] time2c2r2= new float[10];
+float[] time1c2r3= new float[10];
+float[] time2c2r3= new float[10];
+
+int prevSec; 
+int prevMin;
+int millisRolloverTime;
+
+void setup() {
+  size(1280, 720);
+  for (int c=0; c<8; c++) {
+    for (int r=0; r<3; r++) {
+      int index = c+(8*r);
+      cX[index]=(width/2)-(radius*4-radius/2)+(radius*c);
+      cY[index]=(height/2)-radius+(radius*r);
+    }
+  }
+
+  setTime();
+  millisRolloverTime=0;
+}
+
+void draw() {
+  background(#ffffff);
+  fill(0);
+  rect(width/2-radius/2, height/2-120, radius, radius*2);
+  fill(#ffffff);
+  noStroke();
+  ellipse(width/2, height/2-radius/2, radius/2.68, radius/2.68);
+  ellipse(width/2, height/2+radius/2, radius/2.68, radius/2.68);
+
+  for (int i=0; i<24; i++) {
+    stroke(0);
+    strokeWeight(4); 
+    fill(#ffffff);
+    ellipse(cX[i], cY[i], radius, radius);
+    strokeWeight(8);
+
+    showTimeMove(i);
+    //showTimeTogether(i);
+
+    if (minute()+1==60) {
+      println("Next min: 00");
+    } else {
+      println("Next min: "+(minute()+1));
+    }
+    if (hour()+1==24) {
+      println("Next hr: 00");
+    } else {
+      println("Next hr: "+(hour()+1));
+    }
+  }
+}
+
+float backwards(float num) {
+  float newnum = num;
+  if (num==0) { 
+    newnum= 0;
+  }
+  if (num==90) { 
+    newnum= 270;
+  }
+  if (num==135) { 
+    newnum= 225;
+  }
+  if (num==180) { 
+    newnum= 180;
+  }
+  if (num==270) { 
+    newnum= 90;
+  }
+  return newnum;
+}
+
+void showTimeMove(int i) {
+
+  if (prevSec != second()) {
+    millisRolloverTime = millis();
+  } 
+  prevSec = second();
+  int mils = millis() - millisRolloverTime;
+  float test = map(second() + mils/1000.0, 0, 60, 0, 360+(0));
+  line(width/2, height/2-radius/2, width/2+cos(radians(test))*20, (height/2-radius/2)+(sin(radians(test))*20));
+  line(width/2, height/2+radius/2, width/2+cos(radians(test))*20, (height/2+radius/2)+(sin(radians(test))*20));
+
+  float animate = 0;
+  int animationTime = 16;
+  if (second()>=(60-animationTime)) {
+    animate = (second()- (60-animationTime) + mils/1000.0);
+  } else {  
+    animate = 0;
+  }
+
+
+
+  int start = 135;
+  int end = 225;
+  test = -1*map(animate, 0, animationTime, -1*start, 360+end);
+  //line(radius, radius, radius+cos(radians(test))*lineradius, radius+sin(radians(test))*lineradius);
+
+  int digitH1=hour()/10;
+  int digitH2=hour()%10;
+  int digitM1=minute()/10;
+  int digitM2=minute()%10;
+  float coords; 
+  float digitM1move;
+
+  int hour = hour();
+  int minute = minute();
+
+
+  // FIRST DIGIT
+  if (i==0) {
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r1[digitH1], 1440+(time1c1r1[digitH1+1]));
+    } else if (hour==23 && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r1[digitH1], 1440+(time1c1r1[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c1r1[digitH1], 1440+(time1c1r1[digitH1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitH1], 720+(backwards(time2c1r1[digitH1+1])));
+    } else if (hour==23 && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitH1], 720+(backwards(time2c1r1[0])));
+    } else {      
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitH1], 720+(backwards(time2c1r1[digitH1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==1) {
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c2r1[digitH1], 720+(backwards(time1c2r1[digitH1+1])));
+    } else if (hour==23 && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c2r1[digitH1], 720+(backwards(time1c2r1[0])));
+    } else {      
+      coords = -1*map(animate, 0, animationTime, -1*time1c2r1[digitH1], 720+(backwards(time1c2r1[digitH1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r1[digitH1], 360+(backwards(time2c2r1[digitH1+1])));
+    } else if (hour==23 && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r1[digitH1], 360+(backwards(time2c2r1[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r1[digitH1], 360+(backwards(time2c2r1[digitH1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==8) {
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r2[digitH1], 360+(time1c1r2[digitH1+1]));
+    } else if (hour==23 && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r2[digitH1], 360+(time1c1r2[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c1r2[digitH1], 360+(time1c1r2[digitH1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c1r2[digitH1], 720+(time2c1r2[digitH1+1]));
+    } else if (hour==23 && minute==59) {
+      coords = map(animate, 0, animationTime, time2c1r2[digitH1], 720+(time2c1r2[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c1r2[digitH1], 720+(time2c1r2[digitH1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==9) {
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r2[digitH1], 720+(time1c2r2[digitH1+1]));
+    } else if (hour==23 && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r2[digitH1], 720+(time1c2r2[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r2[digitH1], 720+(time1c2r2[digitH1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r2[digitH1], 1080+(backwards(time2c2r2[digitH1+1])));
+    } else if (hour==23 && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r2[digitH1], 1080+(backwards(time2c2r2[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r2[digitH1], 1080+(backwards(time2c2r2[digitH1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==16) {
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r3[digitH1], 720+(time1c1r3[digitH1+1]));
+    } else if (hour==23 && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r3[digitH1], 720+(time1c1r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c1r3[digitH1], 720+(time1c1r3[digitH1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r3[digitH1], 720+(backwards(time2c1r3[digitH1+1])));
+    } else if (hour==23 && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r3[digitH1], 720+(backwards(time2c1r3[digitH1+1])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r3[digitH1], 720+(backwards(time2c1r3[digitH1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==17) {
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r3[digitH1], 720+(time1c2r3[digitH1+1]));
+    } else if (hour==23 && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r3[digitH1], 720+(time1c2r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r3[digitH1], 720+(time1c2r3[digitH1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour==9 || hour==19) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r3[digitH1], 1080+(time2c2r3[digitH1+1]));
+    } else if (hour==23 && minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r3[digitH1], 1080+(time2c2r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c2r3[digitH1], 1080+(time2c2r3[digitH1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+
+  // SECOND DIGIT
+  if (i==2) {
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r1[digitH2], 720+(time1c1r1[digitH2+1]));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r1[digitH2], 720+(time1c1r1[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c1r1[digitH2], 720+(time1c1r1[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitH2], 720+(backwards(time2c1r1[digitH2+1])));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitH2], 720+(backwards(time2c1r1[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitH2], 720+(backwards(time2c1r1[digitH2])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==3) {
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r1[digitH2], 720+(time1c2r1[digitH2+1]));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r1[digitH2], 720+(time1c2r1[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r1[digitH2], 720+(time1c2r1[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r1[digitH2], 1440+(time2c2r1[digitH2+1]));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r1[digitH2], 1440+(time2c2r1[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c2r1[digitH2], 1440+(time2c2r1[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==10) {
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r2[digitH2], 720+(time1c1r2[digitH2+1]));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r2[digitH2], 720+(time1c1r2[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c1r2[digitH2], 720+(time1c1r2[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c1r2[digitH2], 360+(time2c1r2[digitH2+1]));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c1r2[digitH2], 360+(time2c1r2[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c1r2[digitH2], 360+(time2c1r2[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==11) {
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r2[digitH2], 360+(time1c2r2[digitH2+1]));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r2[digitH2], 360+(time1c2r2[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r2[digitH2], 360+(time1c2r2[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r2[digitH2], 720+(backwards(time2c2r2[digitH2+1])));
+    } else if (digitH2==9 && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r2[digitH2], 720+(backwards(time2c2r2[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r2[digitH2], 720+(backwards(time2c2r2[digitH2])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==18) {
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r3[digitH2], 720+(backwards(time1c1r3[digitH2+1])));
+    } else if (digitH2==9 && minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r3[digitH2], 720+(backwards(time1c1r3[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r3[digitH2], 720+(backwards(time1c1r3[digitH2])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c1r3[digitH2], 1080+(time2c1r3[digitH2+1]));
+    } else if (digitH2==9 && minute==59) {
+      coords = map(animate, 0, animationTime, time2c1r3[digitH2], 1080+(time2c1r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c1r3[digitH2], 1080+(time2c1r3[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==19) {
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r3[digitH2], 1080+(time1c2r3[digitH2+1]));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r3[digitH2], 1080+(time1c2r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r3[digitH2], 1080+(time1c2r3[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if ((hour!=9 && hour!=19 && hour!=23) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r3[digitH2], 720+(time2c2r3[digitH2+1]));
+    } else if ((hour==23 || hour==19 || hour==9) && minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r3[digitH2], 720+(time2c2r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c2r3[digitH2], 720+(time2c2r3[digitH2]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+
+  // THIRD DIGIT
+  if (i==4) {
+    if (digitM1!=5 && digitM2==9) {
+      coords = map(animate, 0, animationTime, time1c1r1[digitM1], 720+(time1c1r1[digitM1+1]));
+    } else if (minute==59) {
+      coords = map(animate, 0, animationTime, time1c1r1[digitM1], 720+(time1c1r1[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c1r1[digitM1], 720+(time1c1r1[digitM1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM1!=5 && digitM2==9) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitM1], 1080+(backwards(time2c1r1[digitM1+1])));
+    } else if (minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitM1], 1080+(backwards(time2c1r1[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitM1], 1080+(backwards(time2c1r1[digitM1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==5) {
+    if (digitM1!=5 && digitM2==9) {
+      coords = map(animate, 0, animationTime, time1c2r1[digitM1], 720+(time1c2r1[digitM1+1]));
+    } else if (minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r1[digitM1], 720+(time1c2r1[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r1[digitM1], 720+(time1c2r1[digitM1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM1!=5 && digitM2==9) {
+      coords = map(animate, 0, animationTime, time2c2r1[digitM1], 360+(time2c2r1[digitM1+1]));
+    } else if (minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r1[digitM1], 360+(time2c2r1[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c2r1[digitM1], 360+(time2c2r1[digitM1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==12) {
+    if (digitM1!=5 && digitM2==9) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r2[digitM1], 1080+(backwards(time1c1r2[digitM1+1])));
+    } else if (minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r2[digitM1], 1080+(backwards(time1c1r2[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r2[digitM1], 1080+(backwards(time1c1r2[digitM1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM1!=5 && digitM2==9) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r2[digitM1], 720+(backwards(time2c1r2[digitM1+1])));
+    } else if (minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r2[digitM1], 720+(backwards(time2c1r2[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r2[digitM1], 720+(backwards(time2c1r2[digitM1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==13) {
+    if (digitM1!=5 && digitM2==9) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c2r2[digitM1], 720+(backwards(time1c2r2[digitM1+1])));
+    } else if (minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c2r2[digitM1], 720+(backwards(time1c2r2[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time1c2r2[digitM1], 720+(backwards(time1c2r2[digitM1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM1!=5 && digitM2==9) {
+      coords = map(animate, 0, animationTime, time2c2r2[digitM1], 720+(time2c2r2[digitM1+1]));
+    } else if (minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r2[digitM1], 720+(time2c2r2[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c2r2[digitM1], 720+(time2c2r2[digitM1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==20) {
+    if (digitM1!=5 && digitM2==9) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r3[digitM1], 720+(backwards(time1c1r3[digitM1+1])));
+    } else if (minute==59) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r3[digitM1], 720+(backwards(time1c1r3[0])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r3[digitM1], 720+(backwards(time1c1r3[digitM1])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM1!=5 && digitM2==9) {
+      coords = map(animate, 0, animationTime, time2c1r3[digitM1], 1080+(time2c1r3[digitM1+1]));
+    } else if (minute==59) {
+      coords = map(animate, 0, animationTime, time2c1r3[digitM1], 1080+(time2c1r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c1r3[digitM1], 1080+(time2c1r3[digitM1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==21) {
+    if (digitM1!=5 && digitM2==9) {
+      coords = map(animate, 0, animationTime, time1c2r3[digitM1], 360+(time1c2r3[digitM1+1]));
+    } else if (minute==59) {
+      coords = map(animate, 0, animationTime, time1c2r3[digitM1], 360+(time1c2r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r3[digitM1], 360+(time1c2r3[digitM1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM1!=5 && digitM2==9) {
+      coords = map(animate, 0, animationTime, time2c2r3[digitM1], 720+(time2c2r3[digitM1+1]));
+    } else if (minute==59) {
+      coords = map(animate, 0, animationTime, time2c2r3[digitM1], 720+(time2c2r3[0]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c2r3[digitM1], 720+(time2c2r3[digitM1]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+
+  // FOURTH DIGIT
+  if (i==6) {
+    if (digitM2!=9) {
+      coords = map(animate, 0, animationTime, time1c1r1[digitM2], 1440+(time1c1r1[digitM2+1]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c1r1[digitM2], 1440+(time1c1r1[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM2!=9) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitM2], 720+(backwards(time2c1r1[digitM2+1])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c1r1[digitM2], 720+(backwards(time2c1r1[0])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==7) {
+    if (digitM2!=9) {
+      coords = map(animate, 0, animationTime, time1c2r1[digitM2], 720+(time1c2r1[digitM2+1]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r1[digitM2], 720+(time1c2r1[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM2!=9) {
+      coords = map(animate, 0, animationTime, time2c2r1[digitM2], 360+(time2c2r1[digitM2+1]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c2r1[digitM2], 360+(time2c2r1[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==14) {
+    if (digitM2!=9) {
+      coords = map(animate, 0, animationTime, time1c1r2[digitM2], 360+(time1c1r2[digitM2+1]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c1r2[digitM2], 360+(time1c1r2[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM2!=9) {
+      coords = map(animate, 0, animationTime, time2c1r2[digitM2], 720+(time2c1r2[digitM2+1]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c1r2[digitM2], 720+(time2c1r2[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==15) {
+    if (digitM2!=9) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c2r2[digitM2], 720+(backwards(time1c2r2[digitM2+1])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time1c2r2[digitM2], 720+(backwards(time1c2r2[0])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM2!=9) {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r2[digitM2], 360+(backwards(time2c2r2[digitM2+1])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time2c2r2[digitM2], 360+(backwards(time2c2r2[0])));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==22) {
+    if (digitM2!=9) {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r3[digitM2], 360+(backwards(time1c1r3[digitM2+1])));
+    } else {
+      coords = -1*map(animate, 0, animationTime, -1*time1c1r3[digitM2], 360+(time1c1r3[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM2!=9) {
+      coords = map(animate, 0, animationTime, time2c1r3[digitM2], 720+(time2c1r3[digitM2+1]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c1r3[digitM2], 720+(time2c1r3[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+  if (i==23) {
+    if (digitM2!=9) {
+      coords = map(animate, 0, animationTime, time1c2r3[digitM2], 1080+(time1c2r3[digitM2+1]));
+    } else {
+      coords = map(animate, 0, animationTime, time1c2r3[digitM2], 1080+(time1c2r3[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+    if (digitM2!=9) {
+      coords = map(animate, 0, animationTime, time2c2r3[digitM2], 360+(time2c2r3[digitM2+1]));
+    } else {
+      coords = map(animate, 0, animationTime, time2c2r3[digitM2], 360+(time2c2r3[0]));
+    }
+    line(cX[i], cY[i], cX[i]+cos(radians(coords))*lineradius, cY[i]+sin(radians(coords))*lineradius);
+  }
+}
+
+void setTime() {
+  int d;
+  d=0;//SET TIME = 0
+  time1c1r1[d] = 0;
+  time2c1r1[d] = 90;
+  time1c1r2[d] = 270;
+  time2c1r2[d] = 90;
+  time1c1r3[d] = 270;
+  time2c1r3[d] = 0;
+  time1c2r1[d] = 180;
+  time2c2r1[d] = 90;
+  time1c2r2[d] = 270;
+  time2c2r2[d] = 90;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 180;
+
+  d=1;//SET TIME = 1
+  time1c1r1[d] = 135;
+  time2c1r1[d] = 135;
+  time1c1r2[d] = 135;
+  time2c1r2[d] = 135;
+  time1c1r3[d] = 135;
+  time2c1r3[d] = 135;
+  time1c2r1[d] = 90;
+  time2c2r1[d] = 90;
+  time1c2r2[d] = 270;
+  time2c2r2[d] = 90;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 270;
+
+  d=2;//SET TIME = 2
+  time1c1r1[d] = 0;
+  time2c1r1[d] = 0;
+  time1c1r2[d] = 0;
+  time2c1r2[d] = 90;
+  time1c1r3[d] = 270;
+  time2c1r3[d] = 0;
+  time1c2r1[d] = 180;
+  time2c2r1[d] = 90;
+  time1c2r2[d] = 270;
+  time2c2r2[d] = 180;
+  time1c2r3[d] = 180;
+  time2c2r3[d] = 180;
+
+  d=3;//SET TIME = 3
+  time1c1r1[d] = 0;
+  time2c1r1[d] = 0;
+  time1c1r2[d] = 0;
+  time2c1r2[d] = 0;
+  time1c1r3[d] = 0;
+  time2c1r3[d] = 0;
+  time1c2r1[d] = 180;
+  time2c2r1[d] = 90;
+  time1c2r2[d] = 270;
+  time2c2r2[d] = 180;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 180;
+
+  d=4;//SET TIME = 4
+  time1c1r1[d] = 90;
+  time2c1r1[d] = 90;
+  time1c1r2[d] = 270;
+  time2c1r2[d] = 0;
+  time1c1r3[d] = 135;
+  time2c1r3[d] = 135;
+  time1c2r1[d] = 90;
+  time2c2r1[d] = 90;
+  time1c2r2[d] = 270;
+  time2c2r2[d] = 90;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 270;
+
+  d=5;//SET TIME = 5
+  time1c1r1[d] = 0;
+  time2c1r1[d] = 90;
+  time1c1r2[d] = 270;
+  time2c1r2[d] = 0;
+  time1c1r3[d] = 0;
+  time2c1r3[d] = 0;
+  time1c2r1[d] = 180;
+  time2c2r1[d] = 180;
+  time1c2r2[d] = 180;
+  time2c2r2[d] = 90;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 180;
+
+  d=6;//SET TIME = 6
+  time1c1r1[d] = 0;
+  time2c1r1[d] = 90;
+  time1c1r2[d] = 270;
+  time2c1r2[d] = 90;
+  time1c1r3[d] = 270;
+  time2c1r3[d] = 0;
+  time1c2r1[d] = 180;
+  time2c2r1[d] = 180;
+  time1c2r2[d] = 180;
+  time2c2r2[d] = 90;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 180;
+
+  d=7;//SET TIME = 7
+  time1c1r1[d] = 0;
+  time2c1r1[d] = 0;
+  time1c1r2[d] = 135;
+  time2c1r2[d] = 135;
+  time1c1r3[d] = 135;
+  time2c1r3[d] = 135;
+  time1c2r1[d] = 180;
+  time2c2r1[d] = 90;
+  time1c2r2[d] = 270;
+  time2c2r2[d] = 90;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 270;
+
+  d=8;//SET TIME = 8
+  time1c1r1[d] = 0;
+  time2c1r1[d] = 90;
+  time1c1r2[d] = 270;
+  time2c1r2[d] = 0;
+  time1c1r3[d] = 270;
+  time2c1r3[d] = 0;
+  time1c2r1[d] = 180;
+  time2c2r1[d] = 90;
+  time1c2r2[d] = 270;
+  time2c2r2[d] = 180;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 180;
+
+  d=9;//SET TIME = 9
+  time1c1r1[d] = 0;
+  time2c1r1[d] = 90;
+  time1c1r2[d] = 270;
+  time2c1r2[d] = 0;
+  time1c1r3[d] = 135;
+  time2c1r3[d] = 135;
+  time1c2r1[d] = 180;
+  time2c2r1[d] = 90;
+  time1c2r2[d] = 270;
+  time2c2r2[d] = 90;
+  time1c2r3[d] = 270;
+  time2c2r3[d] = 270;
+}
+
+void showTimeTogether(int i) {
+  int digit=second()%10;
+  //SET TIME BY ROW AND COLUMN
+  if (i%2!=0) {
+    if (i<8) {
+      line(cX[i], cY[i], cX[i]+cos(radians(time1c2r1[digit]))*lineradius, cY[i]+sin(radians(time1c2r1[digit]))*lineradius);
+      line(cX[i], cY[i], cX[i]+cos(radians(time2c2r1[digit]))*lineradius, cY[i]+sin(radians(time2c2r1[digit]))*lineradius);
+    } else if (i>=8 && i<16) {
+      line(cX[i], cY[i], cX[i]+cos(radians(time1c2r2[digit]))*lineradius, cY[i]+sin(radians(time1c2r2[digit]))*lineradius);
+      line(cX[i], cY[i], cX[i]+cos(radians(time2c2r2[digit]))*lineradius, cY[i]+sin(radians(time2c2r2[digit]))*lineradius);
+    } else {
+      line(cX[i], cY[i], cX[i]+cos(radians(time1c2r3[digit]))*lineradius, cY[i]+sin(radians(time1c2r3[digit]))*lineradius);
+      line(cX[i], cY[i], cX[i]+cos(radians(time2c2r3[digit]))*lineradius, cY[i]+sin(radians(time2c2r3[digit]))*lineradius);
+    }
+  } else {
+    if (i<8) {
+      line(cX[i], cY[i], cX[i]+cos(radians(time1c1r1[digit]))*lineradius, cY[i]+sin(radians(time1c1r1[digit]))*lineradius);
+      line(cX[i], cY[i], cX[i]+cos(radians(time2c1r1[digit]))*lineradius, cY[i]+sin(radians(time2c1r1[digit]))*lineradius);
+    } else if (i>=8 && i<16) {
+      line(cX[i], cY[i], cX[i]+cos(radians(time1c1r2[digit]))*lineradius, cY[i]+sin(radians(time1c1r2[digit]))*lineradius);
+      line(cX[i], cY[i], cX[i]+cos(radians(time2c1r2[digit]))*lineradius, cY[i]+sin(radians(time2c1r2[digit]))*lineradius);
+    } else {
+      line(cX[i], cY[i], cX[i]+cos(radians(time1c1r3[digit]))*lineradius, cY[i]+sin(radians(time1c1r3[digit]))*lineradius);
+      line(cX[i], cY[i], cX[i]+cos(radians(time2c1r3[digit]))*lineradius, cY[i]+sin(radians(time2c1r3[digit]))*lineradius);
+    }
+  }
+}</code></pre>
+                        </div>
+                    </div>
+                            
+                </div>
+            </div>
+            <!-- End Extra Section -->
+
+            <!-- Start Info -->
+            <div class="span6">
+                <h3 class="spec">About the <span class="color-text">Project</span></h3>
+                  <p>For this class assignment, we had to make a unique way to display time. In my application, the clocks are designed to work in unison to display the time in a digital style. The animation cycle occurs twice a minute, each lasting 15 seconds. The time displayed is the same before and after the first animation cycle, but the second cycle ends on the next minute. This application works real-time using the system timestamp. This was written in <a href="https://processing.org/" target="_blank">Processing</a>.
+                  <br>
+                  <small>
+                      <cite title="Class Page">See my <a href="http://cmuems.com/2014a/author/hc/" target="_blank">class page</a> to see more of my projects for this course.</cite>
+                  </small>        
+                  </p>        
+            </div>
+            <!-- End Info -->
+
+        </div>
+        <!-- End Info Section -->        
+    </div>
+</div>
+<!-- End Blog Section -->
+        
+<!-- Footer -->
+<footer>
+    <p class="credits">&copy;2016 Hizal &Ccedil;elik</p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src=" ../_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src=" ../_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src=" ../_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src=" ../_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src=" ../_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src=" ../_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src=" ../_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src=" ../_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src=" ../_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src=" ../_include/js/blog.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>

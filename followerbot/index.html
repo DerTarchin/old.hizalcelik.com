@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Hizal &Ccedil;elik | Programmer, Designer, Artist</title>   
+
+<meta name="description" content="Hizal &Ccedil;elik | Programmer, Designer, Artist" />
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href=" ../_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href=" ../_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href=" ../_include/css/supersized.css" rel="stylesheet">
+<link href=" ../_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href=" ../_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href=" ../_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href=" ../_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href=" ../_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href=" ../_include/css/responsive.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="apple-touch-icon" sizes="57x57" href="../_include/favicon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../_include/favicon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../_include/favicon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../_include/favicon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../_include/favicon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../_include/favicon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../_include/favicon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../_include/favicon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../_include/favicon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../_include/favicon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../_include/favicon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../_include/favicon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../_include/favicon.ico/favicon-16x16.png">
+<link rel="manifest" href="../_include/favicon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../_include/favicon.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Modernizr -->
+<script src=" ../_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70907063-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+	<div class="overlay"></div>
+    
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#shortcodes"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+            <a id="goUp" href="#home-slider" title="Hizal &Ccedil;elik | Programmer, Designer, Artist">Hizal &Ccedil;elik</a>
+        </div>
+
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li><a href="../" class="external">Home</a></li>
+                <li><a href="../index.html#work" class="external">Projects</a></li>
+                <li><a href="../index.html#about" class="external">About Me</a></li>
+                <li><a href="../index.html#contact" class="external">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Blog Section -->
+<div id="shortcodes" class="page">
+	<div class="container">
+    
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">FollowerBot</h2>
+                    <h3 class="title-description">Self-driving car that follows Superman.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+
+        <!-- Start Info Section -->
+        <div class="row">
+            <!-- Start About Section -->
+            <div class="span12">
+               <blockquote>
+                   <h3 class="spec">About the <span class="color-text">Project</span></h3>
+                    <p>This <a href="https://www.arduino.cc/" target="_blank">Arduino</a> project is a robotic 1/10th scale car that follows anyone wearing a Superman cape (or large, red clothing). For this project, I acquired a superman cape and began my project with the hopes of making this into a cool interactive public art project, one that can be put out in a public space and people can try running away from the robot. However due to technical difficulties and lack of time, I’ve only been able to get my project working to a certain degree. Within the 1.5-week timespan I had for this project, I was able to get the robot to accurately follow the target at almost any distance, and chase them at a constant speed. One of the issues I had in my limited time was variable speed, and preventing the robot from crashing into the target at high speed.</p>
+                    <small>
+                        <cite title="Class Page">See my <a href="http://cmuems.com/2014a/author/hc/" target="_blank">class page</a> to see more of my projects for this course.</cite>
+                    </small>
+                </blockquote>
+            </div>
+            <!-- End About -->
+        </div>
+        <!-- End Info Section -->
+
+        <div class="row">
+            <div class="span12">
+                <hr>
+            </div>  
+        </div>
+
+        <!-- Start Technical Section -->
+        <div class="row">
+            <!-- Start Video -->
+            <div class="span6">
+                <div class="video-container">
+                    <iframe src="http://player.vimeo.com/video/148839930?byline=0&amp;portrait=0&amp;badge=0&amp;color=519894"></iframe>
+                </div>
+            </div>
+            <!-- End Video -->
+
+            <!-- Start Details Section -->
+            <div class="span6">
+                <div class="accordion" id="accordionArea">
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#brains">
+                                The Brains
+                                <span class="font-icon-arrow-simple-down"></span>
+                            </a>
+                        </div>
+                        <div id="brains" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <p style="margin-bottom:0px"><img src="_include/img/content/wiring1.jpg" style="margin-bottom:10px"/>
+                                This project uses an <a href="https://www.arduino.cc/" target="_blank">Arduino</a> to analyze the data from the camera and send signals to the electronic speed control (in charge of the motor) and servo. The Arduino is programmed to keep a constant speed while pursuing the cape-wearing target. There is a button that resets the ideal distance. This is more important when I have the variable-speed working, allowing the car to slow down or speed up depending on how close or far the target is. The wiring was quite complicated because I had to connect an advanced hobby-grade electronic system to a basic Arduino signal-controlled breadboard.
+                                <br>
+                                <img src="_include/img/content/wiring3.jpg" style="margin-bottom:5px; margin-top:10px" />
+                                <small>
+                                    <cite title="Wiring">An image of the portable battery pack powering the Arduino.</cite>
+                                </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#eyes">
+                            The Eyes
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                        </div>
+                        <div id="eyes" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <p style="margin-bottom:0px"><img src="_include/img/content/wiring2.jpg" style="margin-bottom:10px" />
+                                The Arduino uses one of the more advanced sensors available and compatible with it (due to the relatively weak CPU contained within the circuitboard), a <a href="http://charmedlabs.com/default/pixy-cmucam5/" target="_blank">PixyCam</a>. PixyCam is a specialized camera developed by CMULabs and designed specifically to run as fluidly and quickly as possible on the Arduino platform. The camera captures data based on a specified set of colors, giving me the ability to track objects with my chosen color of red. I filter out smaller red objects detected by the camera to focus solely on the largest object, the cape in front of it. Based on the size of the cape's "square" (seen below) the Arduino can determine the relative distance of the target, and theoretically adjust the car's speed accordingly.
+                                <br>
+                                <img src="_include/img/content/bts.jpg" style="margin-bottom:10px; margin-top:10px" />
+                                <img src="_include/img/content/pixymon.jpg" style="margin-bottom:5px" />
+                                <small>
+                                    <cite title="PixyCam">These two images demonstrate what the PixyCam sees.</cite>
+                                </small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#body">
+                            The Body
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                        </div>
+                        <div id="body" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <p style="margin-bottom:0px"><img src="_include/img/content/car.jpg" style="margin-bottom:10px" />
+                                This project uses one of my oldest possessions, a 6 year old <a href="https://traxxas.com/" target="_blank">Traxxas</a> Slash 4x4 modified to drive at speeds up to 85mph (<span class="color-text">not</span> to scale). For the purposes of this project I used the original motor and electronic speed controller and a 8.4v LiPo battery (instead of my usual 16.8v), which limits the car to 35mph max. The car is of course quite beat up over the years of driving, racing and off-roading with it. This was chosen as the base for my self-driving project because of it's size and weight-carrying capacity and because I've always wanted to see my hobby car drive itself.
+                                <br>
+                                <img src="_include/img/content/race.jpg" style="margin-bottom:5px; margin-top:10px"  />
+                                <small>
+                                    <cite title="Racing Day">A photo from a few years ago, at the race track.</cite>
+                                </small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#diagram">
+                            Wiring Diagram
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                        </div>
+                        <div id="diagram" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <p style="margin-bottom:0px"><img src="_include/img/content/diagram.jpg" style="margin-bottom:5px"  />
+                                <small>
+                                    <cite title="Fritzing Diagram">This is the <a href="http://fritzing.org/home/" target="_blank">Fritzing</a> diagram for the breadboard controlling my robot.</cite>
+                                </small>
+                                <br>
+                                Signals are being sent from the Arduino to the servo for steering and the electronic speed controller on my car for the motor speeds. The servo is powered by the ESC rather than the Arduino because the ESC outputs more voltage. The Arduino recieves power from a standard power source (a portable USB battery pack attached to the front of the car), but the ESC on the robot is powered by a two cell LiPo battery. The two buttons controls/resets the default distance from the cape and the power. Pressing the power starts the robot, and pressing it again freezes the car, stopping all servo and motor use.
+                                <br>
+                                <img src="_include/img/content/wires.jpg" style="margin-top:10px"  /></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#source">
+                            Source Code
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                        </div>
+                        <div id="source" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <pre><code>
+// Call Pixy and Servo
+Pixy pixy;
+Servo motor; 
+Servo servo; 
+
+//Initialize Variables and objects
+int width = 319;
+int height = 199;
+int speed = 90;
+int dir = 90;
+int sizeMIN = 8000;
+int sizeMAX = 11000;
+int sizeSetPin = 3;
+int stopPin = 2;
+boolean STOP = true;
+int lastSize;
+int refresh = 5;
+int refreshSpeed = 50;
+int sizes[50];
+ 
+void setup() 
+{
+  delay(1000);
+  Serial.begin(9600);
+  Serial.println("Starting program...\n");
+  Serial.print("Initializing Pixy...\t\t");
+  pixy.init();
+  Serial.print("Successful\n");
+  Serial.print("Mounting Servos...\t\t");
+  motor.attach(9);
+  servo.attach(10);
+  Serial.print("Succesful\n");
+  Serial.print("Calibrating ESC...\t\t");
+  motor.write(speed);
+  delay(2000);
+  Serial.print("Succesful\n");
+  Serial.print("Setting Servo... \t\t");
+  servo.write(90);
+  Serial.print("Successful\n");
+  Serial.println("\n\n Standing By...");
+  pinMode(sizeSetPin, INPUT);
+  pinMode(stopPin, INPUT);
+  resetArray();
+}
+ 
+void loop() 
+{
+  if (digitalRead(sizeSetPin) == LOW) {
+    sizeMIN = lastSize-1500;
+    sizeMAX = lastSize+1500;
+    Serial.print("New ideal size: ");
+    Serial.print(sizeMIN);
+    Serial.print(" - ");
+    Serial.print(sizeMAX);
+    Serial.println();
+    delay(1000);
+  }
+  if (digitalRead(sizeSetPin) == LOW) {
+    Serial.println("size");
+    delay(1000);
+  }
+  if (digitalRead(stopPin) == LOW) {
+    if (!STOP) {
+      STOP = true;
+      speed = 90;
+      Serial.println("Program Halted.");
+    }
+    else {
+      STOP = false;
+      Serial.println("Program Resumed.");
+      delay(2000);
+      motor.write(102);
+      delay(2000);
+    }
+    delay(1000);
+  }
+ 
+  static int i = 0;
+  int j;
+  uint16_t blocks;
+  char buf[32]; 
+  int size = 500;
+  int largest;
+  blocks = pixy.getBlocks();
+  if (blocks)
+  {
+    i++;
+    if (i%refresh==0)
+    {
+      for (j=0; j<blocks ; j++)
+      {
+        int cur_size = pixy.blocks[j].width * pixy.blocks[j].height;
+        if (cur_size > size) {
+          size = cur_size;
+          largest = j;
+        }
+      }
+      if (size> 500) {
+        lastSize = size;
+        //       Serial.print("Size (");
+        //       Serial.print(size);
+        //       Serial.print(")\t\t");
+ 
+        if (i%refreshSpeed==0) {
+          int total=0; 
+          int sum=0; 
+          int aveSize;
+ 
+          for (int i=0; i&lt;50; i++) {
+            if (sizes[i] != 0) {
+              sum = sum + sizes[i];
+              sum = sum/2;
+            }
+          }
+          aveSize = sum;
+ 
+          //Change speed
+          Serial.print("Speed (");
+          Serial.print(speed);
+          Serial.print(")");
+          Serial.println();
+          if (!STOP) {
+            Serial.print("* ");
+            Serial.print(aveSize);
+            Serial.print(" *");
+           // checkSpeed(aveSize);
+          } 
+          speed = 107;
+          resetArray();
+        }
+ 
+        //change direction
+        //Serial.print("\tDir (");
+        //Serial.print(dir);
+        //Serial.print(")");
+        checkDir(pixy.blocks[largest].x+(pixy.blocks[largest].width/2));
+ 
+        Serial.println();
+ 
+        for(int i=0; i&lt;50; i++) {
+          if (sizes[i] == 0) {
+            sizes[i] = size;
+            break;
+          }
+        }
+      }
+    }
+    if (!STOP) {
+      //write servo and motor
+      motor.write(speed);
+      servo.write(dir);
+    }
+    else if (STOP) {
+      speed = 90;
+      dir = 90;
+      servo.write(dir);
+      motor.write(speed);
+    }
+  }
+  else {
+    //motor.write(90); 
+  }
+}
+ 
+void resetArray() {
+  for (int i=0; i&lt;50; i++) {
+    sizes[i] = 0;
+  }
+}
+ 
+void checkSpeed(int size) {
+  if (size< =sizeMAX && size>=sizeMIN){
+    Serial.print("\t-\t");
+  }
+  if (size< =sizeMIN) {
+    increaseSpeed();
+  }
+  if (size>=sizeMAX) {
+    reduceSpeed();
+  }
+}
+ 
+void reduceSpeed() {
+  Serial.print("\tv\t");
+  if (speed > 90){
+    speed-=10;
+    if (speed &lt;90){
+      speed = 90;
+    }
+  }
+  else if (speed>=40) {
+    speed -=3;
+  }
+}
+ 
+void increaseSpeed(){
+  Serial.print("\t^\t");
+  if (speed>=90 && speed < = 94) {
+    motor.write(102);
+    delay(2000);
+    speed = 95;
+  }
+  else if (speed >= 115 && speed < = 120) { // MAX 140
+    speed += 1;
+  }
+  else if (speed < 90) {
+    speed = 90;
+  }
+  else if (speed < 115){ 
+    speed +=2;
+  }
+}
+ 
+void checkDir(int x) {
+  if (x < 165) {
+    //Serial.print("\t<\t");
+ 
+    dir = map(x, 20, 165, 0, 90);
+    dir = constrain(dir, 0, 90);
+  }
+  else if (x>235) {
+    // Serial.print("\t>\t");
+    dir = map(x, 235, 320, 90, 180);
+    dir = constrain(dir, 90, 180);
+  }
+  else {
+    // Serial.print("\t-\t");
+    dir = 90; 
+  }
+} </code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <!-- End Details Sectaion -->
+        </div>
+        <!-- End Technical Section -->
+    </div>
+</div>
+<!-- End Blog Section -->
+        
+<!-- Footer -->
+<footer>
+    <p class="credits">&copy;2016 Hizal &Ccedil;elik</p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src=" ../_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src=" ../_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src=" ../_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src=" ../_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src=" ../_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src=" ../_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src=" ../_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src=" ../_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src=" ../_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src=" ../_include/js/blog.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
